@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cantante/Grupo - Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="logoqueen.png">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="button-54">Inicio</a></li>
+        <li><a href="discografia.html" class="button-54">Discografía</a></li>
+        <li><a href="contacto.html" class="button-54">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Formulario de contacto -->
+    <form class="form">
+      <h2>CONTÁCTANOS</h2>
+      <p type="Name:"><input placeholder="Pon tu nombre aquí"></input></p>
+      <p type="Email:"><input placeholder="Pon tu email aqui" required></input></p>
+      <p type="Message:"><input placeholder="Dejanos un mensaje comunicativo"></input></p>
+      <label for="motivo" class="select">Motivo de contacto:</label>
+      <select id="motivo" name="motivo">
+        <option value="info" class="información">Obtener información</option>
+        <option value="contratar">Contratar grupo</option>
+        <option value="otros">Otros</option>
+      </select><br><br>
+      <label for="comentario" class="comentario">Comentario:</label><br>
+      <textarea id="comentario" name="comentario" rows="3" cols="40"></textarea><br><br>
+      <button>Send Message</button>
+    </form>
+  </main>
+</body>
+
+</html>
